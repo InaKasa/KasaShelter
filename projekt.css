@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@200;300&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Sofia+Sans:wght@300&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Sofia+Sans:wght@300&family=Varela+Round&display=swap');
+*{
+  box-sizing:unset ;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .carousel-item > img{
+    display: flex;
+    height: 100vh;
+    object-fit: cover;
+  }
+  .carousel-caption {
+    bottom: 270px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+  }
+  
+  .carousel-caption p {
+    width: 75%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+  }
+  
+  .navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-toggler {
+    background: #fff;
+  }
+  
+  .navbar-nav {
+    text-align: center;
+    margin-left: 42%;
+    gap: 40px;
+  }
+  
+  .nav-link {
+    padding: .2rem 1rem;
+  }
+  
+  .nav-link.active, .nav-link:focus{
+    color: #fff;
+  }
+  
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus,.navbar-brand .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+  .link-area{
+    position:fixed;
+    bottom:20px;
+    left:20px;  
+    padding:15px;
+    border-radius:40px;
+    
+}
+.link-area a{
+  text-decoration:none;
+  color:#fff;
+  font-size:25px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 10%;
+}
+#navbar a:hover{
+  color: #fff;
+}
+#carousel{
+  --bs-gutter-x: 0rem;
+}
+
+.bgColor{
+  transition: all 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-bottom: 1px;
+}
+/*veterian*/
+#sherbime{
+    padding-top: 50px;
+    display: block;
+    color: #00a8e0;
+    gap: 4px;
+    text-shadow: black;
+    text-shadow: 2px 2px 4px #000000;
+}
+#sherbime2{
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 3px #000000;
+}
+#div2{
+    padding: 7.5%;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    height: 300px;
+    background-color: rgb(246, 236, 236);
+}
+#div3{
+  font-family: 'Varela Round', sans-serif;
+}
+#ikon{
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: #00a8e0;  
+}
+#veterenianhelp{
+    display:grid;
+    place-content:center;
+    height:100vh;
+    
+}
+
+#vet{
+    height: 100%;
+    width: 60%;
+    display: flex;
+}
+#vet1{
+    height: 100%;
+    width: 60%;
+}
+#col{
+  text-align: right;
+  padding-top: 80px;
+  padding-right: 105px;
+}
+#coll{
+  text-align: left;
+  padding-top: 80px;
+  padding-left: 100px;
+}
+#col2{
+  text-align: left;
+}
+#coll1{
+   text-align: right;
+}
+  #btn{
+    background-color:#00a8e0 ;
+    text-decoration-color: white;
+    color: white;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+
+  #div4{
+    height: 500px;
+    background-color: rgb(246, 236, 236);
+    text-align: left;
+    padding-top: 6%;
+    padding-left: 170px;
+    padding-right: 170px;
+    font-size: 15px;
+    font-family: 'Sofia Sans', sans-serif;
+
+  }
+  #div4 > h2{
+    padding-bottom: 80px;
+    text-align: center;
+    font-family: Nunito, sans-serif;
+  }
+
+  #ikon1{
+    font-size: 2em;
+  margin-bottom: 0.5em;
+  color: #00a8e0; 
+  }
+  #divii{
+    background-image: url(images/vullnetar.jpg);
+    width: 100%;
+    height: 500px;
+    background-size:cover ;
+    position: relative;
+  }
+#divii::before{
+  content: "";
+  background-color: rgba(224, 162, 70, 0.5);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 500px;
+  
+}
+#div5{
+  color: #e4e0e0;
+  position: relative;
+  padding-top: 100px;
+}
+  #div5 > h2{
+    padding-bottom: 35px;
+    
+  }
+  #div5 > p{
+   color: #fff;
+   padding-bottom: 30px;
+  }
+  #div5 > button{
+    background-color: #fab700;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid transparent;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+  }
+  #div5 > button > a:link{
+    color: #000000;  
+    text-decoration: none;
+  } 
+  #div5 > button > a:visited {
+    color: black;
+    text-decoration: none;
+  } 
+  #div5 > button > a:hover {
+    color: white;
+  }
+
+  /*footer*/
+  #footeri{
+    background-color: #000000;
+    color: #e4e0e0;
+    height: 500px;
+    padding: 10%;
+    font: size 1em; ;
+    width: 100%;
+  }
+#ikonn{
+  color: #fff;
+  font-size: 1.5em;
+}
+
+/*About Us*/
+
+#back{
+  width: 100%;
+  height: 500px;
+  background-image: url(images/back4.jpg); 
+  position: relative;
+}
+#back::before{
+  content: "";
+  background-color: rgba(50, 48, 44, 0.5);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 500px;
+}
+#backk{
+  position: relative;
+  color: #fff;
+  padding: 250px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+#backk > a:link{
+  color: #fff;  
+  text-decoration: none;
+} 
+#backk > a:visited {
+  color: #fff;
+  text-decoration: none;
+} 
+#backk > a:hover {
+  color: white;
+} 
+#about{
+  display: block;
+  color: #00a8e0;
+  gap: 4px;
+  text-shadow: black;
+  text-shadow: 2px 2px 4px #000000;
+}
+#about1{
+  text-shadow: 1px 1px 3px #000000;
+}
+#our{
+  font-family: 'Sofia Sans', sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#history{
+  padding-top: 30px;
+  padding-left: 40px;
+}
+#history1{
+  padding-top: 30px;
+  padding-right: 40px;
+}
+#history2{
+  padding-left: 40px;
+}
+
+/*PETS*/
+#ourpets{
+ margin-left: 30px;
+ margin-right: 30px;
+ margin-bottom: 70px;
+
+}
+#pets{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+#ourpetsimg{
+display: inline-block;
+width: 100%;
+height: 100%;
+justify-content: center;
+object-fit: cover;
+
+}
+
+/* volunteer */
+
+#volunteerform{
+  margin:0px 300px;
+  font-family: Nunito, sans-serif;
+}
+.form-label{
+  color:#000000;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+#helping{
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+#helping > h2{
+  font-family: Nunito, sans-serif;
+}
+#helping > p{
+  font-family: 'Sofia Sans', sans-serif;
+}
+#monday ,#tuesday , #wednesday , #thursday , #friday , #saturday , #sunday{
+  margin-left: 30px;
+  opacity: 0.5;
+  border-color: #000000;
+  margin-bottom: 20px;
+  }
+  #volunteerButton{
+    background-color: #fab700;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid transparent;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+  }
+
+#footerPosition{
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0px;
+}
+
+
+/* Contact Us */
+.mapouter{
+  margin-top: 100px;
+  margin-left: 350px;
+  margin-bottom: 100px;
+ 
+}
+
+#writemessage > input{
+padding: 15px;
+ width: 400px;
+ font-size: 13px;
+}
+#writemessage1 > textarea{
+  font-size: 13px;
+}
+#writemessage1{
+  margin-right: 100px;
+}
+#kontaktii{
+  text-align: center;
+  padding-right: 100px;
+  font-size: 17px;
+  margin-left: 100px;
+}
+#kontaktikon{
+  font-size: 1.5em;
+  color: #fab700;
+}
+#sendmessage{
+  border-radius: 30px;
+  border: 1px transparent;
+  width: 170px;
+  height: 40px;
+  margin-left: 82%;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Sofia Sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+#kontakto{
+  margin: 1px;
+}
+
+/*
+
+
+
+
+
+  
+
+
+
+    
+
+
+
+
+
